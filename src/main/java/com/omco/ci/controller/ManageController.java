@@ -1,4 +1,4 @@
-﻿package com.omco.ci.controller;
+package com.omco.ci.controller;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -27,7 +27,7 @@ public class ManageController {
 	@RequestMapping(value = "/test", method = RequestMethod.GET)
 	public String test()
 	{
-		return "hello docker!thi is a test";
+		return "hello docker!";
 	}
 	
 	// µ¥ÎÄ¼þÉÏ´«
