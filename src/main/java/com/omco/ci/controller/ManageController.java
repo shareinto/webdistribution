@@ -27,7 +27,7 @@ public class ManageController {
 	@RequestMapping(value = "/test", method = RequestMethod.GET)
 	public String test()
 	{
-		return "hello docker";
+		return (new Date()).toString();
 	}
 	
 	// µ¥ÎÄ¼þÉÏ´«
